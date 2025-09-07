@@ -1,0 +1,15 @@
+{
+    "name": "nmget/heimdall-bundle",
+    "type": "symfony-bundle",
+    "description": "Système d'authentification réutilisable pour Symfony",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "HeimdallBundle\\": "src/" }
+    },
+    "require": {
+        "php": "^8.1",
+        "symfony/framework-bundle": "^6.0",
+        "symfony/security-bundle": "^6.0",
+        "doctrine/orm": "^2.14"
+    }
+}
